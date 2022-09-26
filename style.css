@@ -3,16 +3,18 @@
 }
 .white{
     color:#edeff1;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-top: 15px;
-    font-size: 3rem;
-    padding-left: 3rem;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+
+main, nav{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bgHeader {
     background-color: #37474f;
     width: auto;
-    height: 150px;
+    height: 100px;
     padding: 0.25rem;
 }
 
@@ -23,5 +25,24 @@
 
 .myDIV:hover+.hide {
     display: block;
-    color: red;
 }
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #942425;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 1rem;
+}
+
+section>h1 {
+    font-size: 2rem;
+}
+
