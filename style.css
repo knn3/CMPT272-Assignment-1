@@ -4,6 +4,9 @@
 .white{
     color:#edeff1;
     font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 3rem;
+    padding-left: 3rem;
 }
 
 .bgHeader {
@@ -13,8 +16,12 @@
     padding: 0.25rem;
 }
 
-h1 {
-    padding-top: 15px;
-    font-size: 3rem;
-    padding-left: 3rem;
+
+.hide {
+    display: none;
+}
+
+.myDIV:hover+.hide {
+    display: block;
+    color: red;
 }
