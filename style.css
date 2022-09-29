@@ -66,6 +66,7 @@ p {
     height: 50px;
     font-size: 1.25rem;
     border: none;
+    outline: none;
     opacity: 0;
     transition: opacity 0.6s;
 }
@@ -99,18 +100,11 @@ h1>img{
     padding: 10px;
 }
 
-.descriptionSize{
-    font-size: 1.25rem;
-}
-
-@media only screen and (max-width: 710px){
-    .white {
-        font-size: 1.5rem;
-    }
-}
-
 
 @media only screen and (max-width: 770px) {
+    .white{
+        font-size: 1.5rem;
+    }
     .container{
         flex: 45%;
         background-color: white;
@@ -122,6 +116,9 @@ h1>img{
     .container {
         flex: 100%;
         background-color: white;
+    }
+    .white {
+        font-size: 1rem;
     }
 }
 
